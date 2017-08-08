@@ -1,0 +1,6 @@
+手动安装php扩展：
+首先去php.net 去搜索要安装的扩展包找到好选择和php版本号对应的扩展
+下载好后解压找到以.dll结尾的文件 粘贴到 php下的ext下
+最后配置一下php.ini 这个文件类似于：
+[memcache]
+extension=php_memcache.dll
